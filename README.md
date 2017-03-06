@@ -64,6 +64,7 @@ $ bundle exec rake db:migrate
 コントローラーの作成
 
 ```
+$ rails g controller Boards
 $ rails g controller Comments
 ```
 
