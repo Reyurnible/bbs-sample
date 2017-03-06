@@ -35,7 +35,15 @@ $./bin/rake db:create
 ```
 
 必要なGemのインストール
+Gemfileに以下を追加
 
 ```
+gem 'devise'
+```
 
+```
+# Bundleインストール
+$bundle install
+# Deviseのインストール
+$rails generate devise:install
 ```
