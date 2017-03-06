@@ -61,7 +61,11 @@ $ rails g model Comments
 $ bundle exec rake db:migrate
 ```
 
+コントローラーの作成
 
+```
+$ rails g controller Comments
+```
 
 
 # その他メモ
